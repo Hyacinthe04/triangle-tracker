@@ -9,9 +9,12 @@ function check_getTriangles(){
       alert("this is Isosceles triangle");
       }
       else if((sideA+sideB)<= sideC || (sideA+sideC)<=sideB || (sideB+sideC)<=sideA) {
-  
-  
+        alert(" those Values are not match any Triangle");
   }
+  else{
+  alert("this is Scalene triangle");
+  }
+ }
   
   
   
