@@ -13,3 +13,7 @@ h2 {
   font-size: 25px;
   font-family: "sans-serif";
 }
+body {
+  background-color: teal;
+  text-align: center;
+}
