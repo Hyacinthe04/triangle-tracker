@@ -8,6 +8,7 @@ function check_getTriangles(){
     else if(sideA===sideB || sideA===sideC || sideC===sideB){
       alert("this is Isosceles triangle");
       }
+      else if((sideA+sideB)<= sideC || (sideA+sideC)<=sideB || (sideB+sideC)<=sideA) {
   
   
   }

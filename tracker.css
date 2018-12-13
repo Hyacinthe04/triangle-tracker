@@ -17,3 +17,6 @@ body {
   background-color: teal;
   text-align: center;
 }
+div {
+  padding: 14px 40px;
+}
