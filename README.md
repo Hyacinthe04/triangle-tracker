@@ -1,1 +1,27 @@
-# triangle-tracker
+# Ndayiragije Hyacinthe
+
+{triangle tracker}, {13th dec 2018}
+By {Hyacinthe Ndayiragije}
+#Description
+{This project is designed for triangle tracker where user can type and enter the values of three sides then acoordings to those values it will tells you what the types of triangle is either is isosceles, equilateral , scalene if For an equilateral triangle, all sides must be equal.
+For an isosceles triangle, two sides are exactly equal.
+For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side. 
+ if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)}
+
+#Setup/Installation Requirements
+vs code
+ubuntu
+github
+text editor
+
+#Known Bugs
+{no bugs }
+
+#Technologies Used
+{computer}
+
+#Support and contact details
+{0785502657}
+
+#License
+{this project is licenced under MIT Licence- see theLICENCE.mdfile for details.} Copyright (c) {year} {List of contributors or company name} }
