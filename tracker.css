@@ -6,4 +6,10 @@ h1 {
   color: var(--ic-brand-font-color-dark);
   color : black;
 }
-
+h2 {
+  text-align: center;
+  color: var(--ic-brand-font-color-dark);
+  color: rgb(225,400,25);
+  font-size: 25px;
+  font-family: "sans-serif";
+}
