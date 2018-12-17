@@ -3,3 +3,11 @@ body{
   text-align: center;
 
 }
+form{
+  border-radius: 12px 20px;
+}
+h2{
+  font-style: oblique;
+  color: darkslategrey;
+  font-size: x-large;
+}
