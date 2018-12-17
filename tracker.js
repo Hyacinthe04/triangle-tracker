@@ -1,20 +1,42 @@
-function check_getTriangles(){
-  var sideA = parseFloat(prompt("please enter value of side A"));
-  var sideB = parseFloat(prompt("please enter value of side B"));
-  var sideC = parseFloat(prompt("please enter value of side C"));
-  if(sideA===sideB && sideB===sideC && sideB===sideC){
-    alert("thi is Equilateral triangle ");
+function seeTriangle() {
+  var side1 = document.getElementById("Side1").value;
+  var side2 = document.getElementById("Side2").value;
+  var side3 = document.getElementById("Side3").value;
+
+
+if (thisIsNotTriangle(side1,side2,side3)) {
+  if (side1 === side2 && side1 === side3) {
+      alert("equilateral");
     }
-    else if(sideA===sideB || sideA===sideC || sideC===sideB){
-      alert("this is Isosceles triangle");
-      }
-      else if((sideA+sideB)<= sideC || (sideA+sideC)<=sideB || (sideB+sideC)<=sideA) {
-        alert(" those Values are not match any Triangle");
-  }
-  else{
-  alert("this is Scalene triangle");
-  }
- }
+    else if (side1 === side2 || side1 === side3|| side2 === side3){
+      alert("isosceles");
+    }
+    else {
+      alert("scalene");
+    }
+} 
+
+
+else {
+  alert("not a triangle");
+}
   
-  
-  
+}
+
+function thisIsNotTriangle(side1,side2,side3) {
+if ( (side1 + side2) <= side3 ) {
+    return false;
+}
+else if ( (side1 + side3) <= side1 ) {
+  return false;
+}
+else if ( (side1 + side3) <= side2 ) {
+  return false;
+}
+else if (!(side1) || !(side2) || !(side3)){
+  return false;
+}
+else {
+  return true;
+}
+}

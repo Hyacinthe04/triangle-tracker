@@ -1,22 +1,14 @@
-h1 {
-  font-weight: 200;
+body{
+  background-color: darkolivegreen;
   text-align: center;
-  font-size: 45px;
-  font-family:serif;
-  color: darkolivegreen
-  color : black;
+
 }
-h2 {
+h1{
+  color: blue;
   text-align: center;
-  color: var(--ic-brand-font-color-dark);
-  color: rgb(225,400,25);
-  font-size: 25px;
-  font-family: "sans-serif";
+
 }
-body {
-  background-color: teal;
+h2{
   text-align: center;
-}
-div {
-  padding: 14px 40px;
+  
 }
