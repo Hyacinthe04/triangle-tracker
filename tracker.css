@@ -3,11 +3,21 @@ body{
   text-align: center;
 
 }
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
 form{
   border-radius: 12px 20px;
 }
 h2{
   font-style: oblique;
   color: darkslategrey;
-  font-size: x-large;
+  font-size: xx-large;
+}
+input{
+  color: darkgreen;
+}
+::placeholder{
+  color: green;
 }
