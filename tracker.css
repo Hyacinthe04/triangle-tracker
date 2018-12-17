@@ -1,5 +1,5 @@
 body{
-  background-color: burlywood;
+  background-color: indianred;
   text-align: center;
 
 }
@@ -9,6 +9,7 @@ p{
 }
 form{
   border-radius: 12px 20px;
+  padding: 5px;
 }
 h2{
   font-style: oblique;
@@ -20,4 +21,13 @@ input{
 }
 ::placeholder{
   color: green;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:darkslategrey;
+  color: white;
+  text-align: center;
 }
