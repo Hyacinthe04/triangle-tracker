@@ -10,11 +10,11 @@ For a scalene triangle, none of the sides is equal. However, the sum of any two 
 
  #BDD
 
- | input   | output      | behavior                                                                            |
+ | input      | output          | behavior                                                                            
 ------------------------------------------------------------------
-| (3,3,3) | equilateral | all sides must be equal                                                               
-| (3,3,2) | isoceles    | two sides is equal but different to third side                                       
-| (3,4,4) | scalene     | all sides are different but the sum of two sides must                           Be greater than the third one 
+| (3,3,3)    | equilateral     | all sides must be equal                                                               
+| (3,3,2)    | isoceles        | two sides is equal but different to third side                                       
+| (3,4,4)    | scalene         | all sides are different but the sum of two side                                   must Be greater than the third one 
 
 #Setup/Installation Requirements
 vs code
