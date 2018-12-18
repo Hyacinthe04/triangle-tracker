@@ -6,7 +6,15 @@ By {Hyacinthe Ndayiragije}
 {This project is designed for triangle tracker where user can type and enter the values of three sides then acoordings to those values it will tells you what the types of triangle is either is isosceles, equilateral , scalene if For an equilateral triangle, all sides must be equal.
 For an isosceles triangle, two sides are exactly equal.
 For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side. 
- if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)}
+ if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)} 
+
+ #BDD
+
+ | input   | output      | behavior                                                                            |
+------------------------------------------------------------------
+| (3,3,3) | equilateral | all sides must be equal                                                               
+| (3,3,2) | isoceles    | two sides is equal but different to third side                                       
+| (3,4,4) | scalene     | all sides are different but the sum of two sides must                           Be greater than the third one 
 
 #Setup/Installation Requirements
 vs code
