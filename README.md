@@ -31,4 +31,4 @@ text editor
 {0785502657}
 
 #License
-{this project is licenced under hyacinthen04@gmail.com.} Copyright 2018 { Hyacinthe Ndayiragije @wecode} }
+{this project is licenced under MIT hyacinthen04@gmail.com.} Copyright 2018 { Hyacinthe Ndayiragije @wecode} }
